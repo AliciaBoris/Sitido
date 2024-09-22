@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #000003;
+}
+
+body {
+    background-image: url("Black LEGIS TaskTracker1.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+h1, h2 {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: align-left;
+    padding: 30px;
+    background-color: rgb(219, 198, 5);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-top: 10px;
+    color: rgb(4, 58, 32);
+}
+
+form input, form button {
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(242, 253, 251);
+}
+
+form button {
+    background-color: rgb(2, 104, 70);
+    color:rgb(240, 253, 255);
+    font-size: 16px;
+    }
+#task-list {
+    margin: 20px left;
+    width: 600px;
+}
+
+#task-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#task-list li {
+    background-color: rgb(232, 240, 128);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
